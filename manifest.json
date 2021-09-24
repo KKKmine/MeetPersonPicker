@@ -1,0 +1,16 @@
+{
+    "name": "Meet Person Picker",
+    "description": "Pick a person or a hand raised person in Google Meet.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions": ["scripting"],
+    "host_permissions": [
+        "https://meet.google.com/*"
+    ],
+    "background": {
+      "service_worker": "main.js"
+    },
+    "icons": {
+      "128": "icon.png"
+    }
+}
